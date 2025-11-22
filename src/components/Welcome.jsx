@@ -20,7 +20,7 @@ const renderText = (text, className, baseWeight = 400) => {
 };
 
 const setupTextHover = (container, type) => {
-  if (!container) return;
+  if (!container) return () => {};
 
   const letters = container.querySelectorAll("span");
 
@@ -90,7 +90,7 @@ const Welcome = () => {
 
       <div className="small-screen">
         <p>
-          This Portfolio is designed for desktop/tabled screens only.
+          This Portfolio is designed for desktop/tablet screens only.
         </p>
       </div>
     </section>
