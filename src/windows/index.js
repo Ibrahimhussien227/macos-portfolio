@@ -4,5 +4,14 @@ import Resume from "./Resume";
 import Finder from "./Finder";
 import Text from "./Text";
 import ImageContent from "./ImageContent";
+import Contact from "./Contact";
 
-export { Terminal, Safari, Resume, Finder, Text, ImageContent };
+export {
+  Terminal,
+  Safari,
+  Resume,
+  Finder,
+  Text,
+  ImageContent,
+  Contact,
+};
