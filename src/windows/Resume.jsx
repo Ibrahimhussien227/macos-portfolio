@@ -27,10 +27,12 @@ const Resume = () => {
           <Download className="icon" />
         </a>
       </div>
-      <div className="h-[calc(100vh-200px)] overflow-y-scroll scroll-smooth">
+      <div className="h-[calc(100vh-200px)] overflow-y-scroll scroll-smooth ">
         <Document file="files/resume.pdf">
           {Array.from(new Array(2), (_, index) => (
             <Page
+              width={550}
+              height={770}
               key={index}
               pageNumber={index + 1}
               renderTextLayer

@@ -65,8 +65,6 @@ const Dock = () => {
 
     const window = windows[app.id];
 
-    // console.log(window);
-
     if (!window) {
       console.error(`Window not found for app: ${app.id}`);
     }
