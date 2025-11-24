@@ -1,6 +1,3 @@
-import { WindowControls } from "@components";
-import { blogPosts } from "@constants";
-import WindowWrapper from "@hoc/WindowWrapper";
 import {
   ChevronLeft,
   ChevronRight,
@@ -12,6 +9,10 @@ import {
   Share,
   ShieldHalf,
 } from "lucide-react";
+
+import WindowWrapper from "@hoc/WindowWrapper";
+import { WindowControls } from "@components";
+import { blogPosts } from "@constants";
 
 const Safari = () => {
   return (
