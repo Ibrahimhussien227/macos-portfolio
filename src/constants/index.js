@@ -416,7 +416,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/profile.jpeg",
+      imageUrl: "/images/profile.jpg",
     },
     {
       id: 4,
